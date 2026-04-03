@@ -1,0 +1,15 @@
+[
+  { "name": "Python", "icon": "Python" },
+  { "name": "C", "icon": "C" },
+  { "name": "C++", "icon": "Cpp" },
+  { "name": "HTML", "icon": "Html5" },
+  { "name": "CSS", "icon": "Css3" },
+  { "name": "React", "icon": "React" },
+  { "name": "Next.js", "icon": "NextJS" },
+  { "name": "Docker", "icon": "Docker" },
+  { "name": "Azure", "icon": "Azure" },
+  { "name": "Github", "icon": "Github" },
+  { "name": "VSCode", "icon": "VSCode" },
+  { "name": "Linux", "icon": "Linux" },
+  { "name": "Windows 11", "icon": "Windows" }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Arch Linux Installation Guide on VirtualBox",
+    "description": "Guide on instaling Arch Linux on a VirtualBox without Archinstall. Besides OS installation, i also went over some extra stuff to make the OS more suitable for a daily driver",
+    "tags": ["Bahasa Indonesia", "Linux", "VirtualBox"],
+    "link": "https://docs.google.com/document/d/1afUIw325TlLoqu-75RXMt8cBPx4nF6xee77gsLkuUCY/edit?usp=sharing"
+  },
+  {
+    "title": "Attack on the Vigenère Cipher Key Through Index of Coincidence Optimization Based on Dynamic Programming",
+    "description": "Analysis on the algorithmic speedup of using Dynamic Programming in the Index of Coincidence calculation in the implementation of Vigenere Cipher's key solver. In the paper, i compared the efficiency and effectivity on various plaintext sizes",
+    "tags": ["English", "Algorithmic Strategy", "Cryptography"],
+    "link": "https://informatika.stei.itb.ac.id/~rinaldi.munir/Stmik/2024-2025/Makalah2025/Makalah-IF2211-Strategi-Algoritma-2025%20(57).pdf"
+  },
+  {
+    "title": "Analyzing Computational Complexity of Popular Cryptographic Algorithms to Determine the Most Efficient Cryptosystem",
+    "description": "Analyzing three different Cryptographic Algorithms, RSA, ECC and AES to compare their efficiency on different sizes of plaintext using computational complexity evaluation and empirical data from implementations of such algorithms",
+    "tags": ["English", "Cryptography", "Discrete Mathematics", "Elliptic Curves", "RSA", "AES"],
+    "link": "https://informatika.stei.itb.ac.id/~rinaldi.munir/Matdis/2024-2025/Makalah/Makalah-IF1220-Matdis-2024%20(18).pdf"
+  },
+  {
+    "title": "Application of Linear Algebra for Optimizing Collision Detection in Precision Parry-Based Combat Systems for Sekiro-like Games",
+    "description": "In this paper i explored optimizations of collision detection algorithms which utilizes Linear Algebra. Algorithms included in the paper are Axis-Aligned Bounding Box (AABB), and Separating Axis Theorem (SAT)",
+    "tags": ["English", "Linear Algebra", "Collision Detection", "AABB", "SAT"],
+    "link": "https://informatika.stei.itb.ac.id/~rinaldi.munir/AljabarGeometri/2024-2025/Makalah/Makalah-IF2123-Algeo-2024%20(31).pdf"
+  }
+]

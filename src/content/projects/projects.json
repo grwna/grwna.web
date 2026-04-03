@@ -1,0 +1,72 @@
+[
+  {
+    "title": "SiapbOSku",
+    "description": "32-bit operating system with separation between kernel and user land. It uses a custom EXT2 filesystem, with multitasking capabilities, and a fully working shell",
+    "image": "/images/projects/siapbosku.png",
+    "tags": ["C", "x86 Assembly", "Kernel Development", "Filesystem Development (EXT2)"],
+    "link": "https://github.com/grwna/os-2025-siapbOSku"
+  },
+  {
+    "title": "ASM HTTP Server",
+    "description": "HTTP server written entirely in x86 assembly. The server can handle multiple connectiens simultaneously using a forking model for each client request. It also serves various filetypes",
+    "image": "/images/projects/priangan.png",
+    "tags": ["x86 Assembly", "C", "Nginx", "Socket Programming"],
+    "link": "https://github.com/grwna/seleksi-lab-sister-2025-b-2/tree/main/1-Ngalegaan%20Kakawasan%2C%20Tamamo%20Silang%20-%20Sunda%20Priangan"
+  },
+  {
+    "title": "Mandelbrot Generator",
+    "description": "Mandelbrot set generator that uses CPU and GPU parallelization to achieve high speed generation",
+    "image": "/images/projects/mandelbrot.png",
+    "tags": ["C++", "OpenMP", "CUDA"],
+    "link": "https://github.com/grwna/seleksi-lab-sister-2025-b-1/tree/main/4-Mandelbrot%20of%20Madness"
+  },
+  {
+    "title": "Bitwise Multiplication Calculator",
+    "description": "Multiplication calculator that is written entirely using bitwise operators. Can handle numbers up to 10^1.000.000 in a reasonable time",
+    "image": "/images/projects/semettre.png",
+    "tags": ["C", "Number Theoretic Transform", "Bitwise Programming"],
+    "link": "https://github.com/grwna/seleksi-lab-sister-2025-b-1/tree/main/8-Se%20mettre%20Requiem"
+  },
+  {
+    "title": "CTF Challenge Repository",
+    "description": "Collection of CTF challenges i authored for personal learning as well as various events",
+    "image": "/images/projects/2b.png",
+    "tags": ["Digital Forensics", "Cryptography", "Reverse Engineering"],
+    "link": "https://github.com/grwna/CTF-grwna/tree/main/problem-set"
+  },
+  {
+    "title": "Vigenere Cipher Cracker",
+    "description": "Cracker for vigenere cipher that utilizes Dynamic Programming for Index of Coincidence calculation to efficiently solve a vigenere key written in Python",
+    "image": "/images/projects/vigenere.png",
+    "tags": ["Python", "Cryptography", "Dynamic Programming"],
+    "link": "https://github.com/grwna/vigenere-cipher-cracker"
+  },
+  {
+    "title": "TCP over UDP Chat Application",
+    "description": "Python chat app with client and server application to demonstrate an implementation of TCP over UDP",
+    "image": "/images/projects/tcpudp.png",
+    "tags": ["Python", "Socket Programming", "Computer Networking"],
+    "link": "https://github.com/grwna/tubes-if2230-jarkom"
+  },
+  {
+    "title": "Rush Hour Puzzle Solver",
+    "description": "Java desktop application of solver for Rush Hour Puzzle. Uses various pathfinding algorithms to efficiently find a solution for the puzzle",
+    "image": "/images/projects/rush-hour.png",
+    "tags": ["Java", "JavaFX", "Pathfinding"],
+    "link": "https://github.com/grwna/Tucil3_13523035_13523117"
+  },
+  {
+    "title": "Little Alchemy Recipe Finder",
+    "description": "Website that allows searching for recipes of items in Little Alchemy 2",
+    "image": "/images/projects/alchemy.png",
+    "tags": ["Golang", "NextJS", "Docker", "Search Algorithms"],
+    "link": "https://github.com/grwna/Tucil3_13523035_13523117"
+  },
+  {
+    "title": "SongSmart",
+    "description": "Website that lets you find a song's name by it's tune and albums by their cover art",
+    "image": "/images/projects/songsmart.png",
+    "tags": ["NextJS", "Python", "Image Information Retireval", "Music Information Retireval"],
+    "link": "https://github.com/grwna/Tucil3_13523035_13523117"
+  }
+]

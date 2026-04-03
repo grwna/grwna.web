@@ -1,0 +1,20 @@
+[
+  {
+    "title": "Cybersecurity",
+    "description": "Focusing on offensive security, I'm actively sharpening my skills through CTFs",
+    "tags": ["Cryptography", "PWN", "Web Exploitation"],
+    "icon": "Shield"
+  },
+  {
+    "title": "Systems Programming",
+    "description": "I find joy in understanding the inner workings of software components, and how i can create my own",
+    "tags": ["C", "Rust", "Assembly", "Linux"],
+    "icon": "Cpu"
+  },
+  {
+    "title": "Web Dev",
+    "description": "I'm interested in fullstack development, but focusing in backend and the design of server-side architecture",
+    "tags": ["Docker", "Python", "TypeScript", "MySQL", "React", "Next.js"],
+    "icon": "Code2"
+  }
+]
