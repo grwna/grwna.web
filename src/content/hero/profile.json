@@ -1,0 +1,9 @@
+{
+  "greeting": "Hi, I'm M. Rayhan Farrukh",
+  "subtitle": "I also go by my online handle Grwna",
+  "paragraphs": [
+    "I’m an undergraduate Informatics student at Bandung Institute of Technology with an interest for cybersecurity and low-level programming.",
+    "As a CTF enthusiast, I’m sharpening my skills in reverse engineering, binary exploitation, and cryptography. I'm also diving into computer science, and software engineering."
+  ],
+  "image": "/images/profile.png"
+}
