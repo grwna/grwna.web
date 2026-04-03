@@ -30,7 +30,7 @@
     --chart-3: oklch(0.596 0.145 163.225);
     --chart-4: oklch(0.508 0.118 165.612);
     --chart-5: oklch(0.432 0.095 166.913);
-    --radius: 0.625rem;
+    --radius: 0.65rem;
     --sidebar: oklch(0.985 0 0);
     --sidebar-foreground: oklch(0.141 0.005 285.823);
     --sidebar-primary: oklch(0.21 0.006 285.885);
@@ -57,7 +57,7 @@
     --accent: oklch(0.274 0.006 286.033);
     --accent-foreground: oklch(0.985 0 0);
     --destructive: oklch(0.704 0.191 22.216);
-    --border: oklch(1 0 0 / 10%);
+    --border: oklch(100% 0.00 95 / 20%);
     --input: oklch(1 0 0 / 15%);
     --ring: oklch(0.552 0.016 285.938);
     --chart-1: oklch(0.845 0.143 164.978);
@@ -118,14 +118,55 @@
     --radius-4xl: calc(var(--radius) * 2.6);
 }
 
+@layer components {
+    .clickable,
+    nav li a {
+        @apply py-3 px-3 rounded-xl transition-all;
+    }
+
+    nav li a:not(.exception) {
+        @apply hover:bg-accent
+    }
+
+    .button {
+        @apply px-5 py-3 rounded-2xl text-base font-bold text-foreground bg-primary;
+    }
+
+    .centered-section {
+        @apply mt-10 mx-5 mb-20 xl:mx-20 2xl:mx-[100px] w-full max-w-7xl px-6 md:px-10 scroll-mt-25;
+    }
+
+    .section-title {
+        @apply font-heading text-2xl md:text-3xl text-foreground m-0 mb-6;
+    }
+
+    .empty-placeholder {
+        @apply flex justify-center py-20 md:py-30 text-muted-foreground;
+    }
+
+    .nav-link {
+        @apply text-foreground no-underline hover:text-primary transition-colors font-bold;
+    }
+
+    .badge-container {
+        @apply flex flex-row flex-wrap gap-2
+    }
+}
+
 @layer base {
   * {
     @apply border-border outline-ring/50;
     }
-  body {
-    @apply bg-background text-foreground;
-    }
   html {
     @apply font-sans;
+    scroll-behavior: smooth;
     }
+  body {
+    background: var(--background);
+    color: var(--foreground);
+    @apply font-sans;
+    }
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-heading;
+  }
 }
