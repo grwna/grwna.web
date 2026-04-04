@@ -47,7 +47,7 @@ export const ProjectCard: React.FC<ProjectCardProps> = ({ title, description, im
           
           <div className="flex items-center">
             <a href={link} target="_blank" rel="noopener noreferrer" className="no-underline">
-              <Button variant="outline" className="gap-2 rounded-xl group-hover:bg-primary group-hover:text-primary-background transition-all">
+              <Button variant="outline" className="gap-2 rounded-xl group-hover:bg-background group-hover:text-primary-background transition-all">
                 <SiGithub className="w-4 h-4" />
                 <span>View on Github</span>
               </Button>
